@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Track";
+    src: url(/fonts/Track.ttf) format("truetype");
+}
+
+.main {background: url('/images/main-background.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:10px;
+  
+}
+body {
+    font-family: "Track";
+}
+
+p, label { font-family: "Track";}
+label {font-size:12px !important;}
+
+.add-subtext {margin:20px 10px; text-align:center;}
+.track {font-family:"Track"; font-size:40px; color:#FFF; text-align:center; margin-top:75px; display:block;text-shadow: 2px 2px #000;}
+.subtitle{font-size:20px; text-shadow:1px 1px #000; margin-top:50px;}
+.go-for-it {width:100%; font-family: "Track"; margin-top:75px; padding-top:10px !important; background-color:#09ad7e !important; color:#FFF !important; }
+header {background-color:#09ad7e !important; color:#FFF !important; height:50px !important; font-family:"Track"; text-align:center; padding:17px;}
+.add-checklist {float:right; font-size:30px; margin-top:-10px; cursor:pointer;}
+.ui-btn-icon-right:after {background-color:#09ad7e !important;}
+.trashcan {float:left; margin-top:30px;  margin-left:10px; margin-right:10px; height:auto; cursor:pointer;}
+.ui-btn:active {background-color:#09ad7e !important; box-shadow:2px 2px #09ad7e;}
+.ui-select {display:none;}
+.select2 {width:100% !important;}
+.select2-search {width:100%;}
+.select2-search__field {width:100% !important;}
+.checklijst-add {margin-top:25px;}
+.minus , .plus { margin-right:10px; float:right; cursor:pointer;}
+.plus {color:#09ad7e;top:-34px !important;}
+.minus {color:#c9302c; top:-25px !important;}
+.extralink {margin-top:15px;}
+.ui-input-search {margin-bottom:10px !important;}
+.back {float:left;font-size:25px; margin-top:-7px; cursor:pointer;}
+#title {text-align:center; font-family: Track; font-size:25px;}
+#checks li {padding:10px; font-size:18px; font-family: Track; }
+.check-ok {color:#09ad7e; margin-right:5px;}
+#friends-overview img {margin:5px;}
+.ui-btn-active {background-color:#09ad7e !important; border-color:#09ad7e !important;}
+.track-info {font-family:"Track"; font-size:40px; color:#09ad7e; text-align:center; margin-top:75px; display:block;text-shadow: 2px 2px #000;}
+.subtitle-info {font-family:"Track"; font-size:20px; color:#000; text-align:center; margin-top:20px; display:block;}
+.info-text li {list-style-type:none; text-align:center; margin-left:-40px; margin-top:50px;}
+.edit-checklist {font-size:30px; float:right; margin-top:-10px;}
+footer {position:fixed !important; bottom:0; width:100% !important;}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="?android:attr/listPreferredItemHeight"
+ >
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/discard_btn"
+    android:src="@drawable/ic_action_discard"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="false"
+    android:layout_alignParentBottom="true"
+    android:layout_toRightOf="@+id/checklist_participants"
+    android:layout_toEndOf="@+id/checklist_participants"
+    android:layout_alignParentTop="true" />
+<ImageView
+    android:id="@+id/imgIcon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentTop="true"
+    android:padding="10px"
+    android:layout_marginRight="6dip"
+    android:contentDescription="TODO"
+    android:src="@drawable/ic_launcher" />
+
+
+<TextView
+    android:id="@+id/checklist_participants"
+    android:layout_width="260dip"
+    android:layout_height="26dip"
+    android:layout_alignParentBottom="true"
+    android:layout_toRightOf="@id/imgIcon"
+    android:ellipsize="marquee"
+    android:singleLine="true"
+    android:text="Description"
+    android:textSize="12sp" />
+
+<TextView
+    android:id="@+id/checklist_title"
+    android:layout_width="260dip"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/checklist_participants"
+    android:layout_alignParentTop="true"
+    android:layout_alignWithParentIfMissing="true"
+    android:layout_toRightOf="@id/imgIcon"
+    android:gravity="center_vertical"
+    android:text="Example application"
+    android:textSize="16sp" />
+
+
+
+
+</RelativeLayout>

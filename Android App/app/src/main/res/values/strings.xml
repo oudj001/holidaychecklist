@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Holiday Checklist</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add">Add new checklist</string>
+    <string name="action_delete">Delete checklists</string>
+    <string name="action_friends_add">Add new friends</string>
+    <string name="select_string">Select an item</string>
+    <string name="not_found_checklists">There are no Checklists found, make a new one by clicking the plus-icon above!</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

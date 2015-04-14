@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools ="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:context=".ChecklistActivity">
+
+    <!-- Single menu item
+         Set id, icon and Title for each menu item
+    -->
+    <item
+        android:id="@+id/menu_add"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_new"
+        android:visible="true"
+        android:title="@string/action_add"/>
+
+
+    <item android:id="@+id/menu_checklists"
+        android:icon="@drawable/ic_action_view_as_list"
+        android:title="Checklists" />
+
+    <item android:id="@+id/menu_friends"
+        android:icon="@drawable/ic_action_person"
+        android:title="Friends" />
+
+    <item android:id="@+id/menu_info"
+        android:icon="@drawable/ic_action_about"
+        android:title="Info" />
+</menu>
